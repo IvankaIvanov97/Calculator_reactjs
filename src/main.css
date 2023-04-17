@@ -1,0 +1,65 @@
+:root {
+    --back: #333;
+    --cont: #666;
+    --color: #fff;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.App {
+    background-color: var(--back);
+    width: 30vw;
+}
+p {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    background-color: var(--back);
+    height: 7.5vw;
+    color: var(--color);
+    font-size: 4.4vw;
+    border: none;
+}
+p.pob {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    background-color: var(--back);
+    height: 5.5vw;
+    color: var(--color);
+    font-size: 2.4vw;
+    border: none;
+}
+table {
+    width: 100%;
+    display: block;
+}
+tbody {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+tr {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+button {
+    width: 7.5vw;
+    height: 7.5vw;
+    display: block;
+    border: 1px solid var(--back);
+    font-size: 1.4vw;
+    background-color: var(--cont);
+    color: var(--color);
+}
